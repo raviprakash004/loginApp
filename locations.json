@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "xyz",
+    "street_address": "Jublee Hills",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "zip": "500009",
+    "phone": "1234455555"
+  },
+  {
+    "id": 2,
+  "name": "XXX",
+    "street_address": " 22 school street",
+    "city": "Vizag",
+    "state": "AP",
+    "zip": "540029",
+    "phone": "66666688888"
+  },
+  {
+    "id": 3,
+    "name": "ZZZ",
+    "street_address": "T nagar",
+    "city": "Chenni",
+    "state": "Tamilnadu",
+    "zip": "000000",
+    "phone": "5555666666"
+  }
+]

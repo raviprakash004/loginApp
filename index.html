@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="LoginExample">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Login Example</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+        <div class="navbar-header">
+            <a href='' class="navbar-brand">Demo</a>
+        </div>
+        
+            <ul class="nav navbar-nav navbar-right">
+                <li ><a href="#/">Home</a></li>
+                <li><a href="#/about">About</a></li>
+                <li><a href="#/contact">Contact</a></li>
+            </ul>
+       </div> 
+    </nav>
+  
+    <div class="jumbotron">
+      <div class="container">
+        <div class="col-xs-offset-2 col-xs-8">
+            <div ng-view></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="credits text-center">
+      <p>
+          AngularJS Login App
+      </p>
+      
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://code.angularjs.org/1.4.9/angular.js"></script>
+    <script src="https://code.angularjs.org/1.4.9/angular-route.js"></script>
+    <script src="https://code.angularjs.org/1.4.9/angular-cookies.js"></script>
+    <script src="scripts/app.js"></script>
+    <script src="modules/authentication/services.js"></script>
+    <script src="modules/authentication/controllers.js"></script>
+    <script src="modules/home/controllers.js"></script>
+  </body>
+
+</html>
